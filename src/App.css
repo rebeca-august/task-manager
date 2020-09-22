@@ -171,6 +171,7 @@
   }
   .app-wrapper {
     min-width: 350px;
+    height: 75vh;
   }
 
   .task-input {

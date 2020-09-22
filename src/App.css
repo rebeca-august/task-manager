@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap");
 
 * {
   margin: 0;
@@ -32,7 +32,7 @@
   font-weight: 300;
   text-align: center;
   margin: 50px 20px 60px 20px;
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
 }
 
 .main {
@@ -57,6 +57,7 @@
   max-height: 300px;
   overflow: hidden;
   overflow-y: auto;
+  word-break: break-word;
 }
 
 /* width */
@@ -81,7 +82,7 @@
   min-width: 250px;
   padding: 15px 10px 10px 20px;
   margin-right: 10px;
-  font-family: 'Josefin Sans', serif;
+  font-family: "Josefin Sans", serif;
   font-size: 15px;
   color: #ccc;
   background-color: #1d222b;
@@ -104,7 +105,7 @@
   background-color: #790e43;
   color: #ccc;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -121,6 +122,7 @@
 
 .list-item span {
   color: #999;
+  max-width: 250px;
 }
 
 .task-btn {
@@ -148,7 +150,7 @@
   background-color: #790e43;
   color: #ccc;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -161,4 +163,25 @@
   text-align: center;
   font-size: 18px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+  .app-wrapper {
+    min-width: 350px;
+  }
+
+  .task-input {
+    width: 270px;
+    min-width: 200px;
+    margin: 10px;
+  }
+
+  .list {
+    max-height: 250px;
+    padding: 15px;
+  }
+
+  .list-item > span {
+    max-width: 160px;
+  }
 }

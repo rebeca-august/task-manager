@@ -167,8 +167,9 @@
 
 @media only screen and (max-width: 650px) {
   .container {
-    height: 86vh;
+    height: 85vh;
   }
+
   .app-wrapper {
     min-width: 350px;
   }

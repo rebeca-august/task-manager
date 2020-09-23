@@ -178,7 +178,7 @@
   .task-input {
     width: 270px;
     min-width: 200px;
-    margin: 10px;
+    margin-right: 0;
   }
 
   .list {

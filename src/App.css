@@ -167,7 +167,7 @@
 
 @media only screen and (max-width: 650px) {
   .container {
-    height: 90vh;
+    height: 88vh;
   }
 
   .app-wrapper {
@@ -182,7 +182,7 @@
   }
 
   .list {
-    max-height: 100px;
+    max-height: 95px;
     padding: 15px;
   }
 
